@@ -73,10 +73,10 @@ img {
   background-image: url("shirts.jpg");
 }
 .slide-2 {
-  background-image: url("hoodie1.jpg");
+  background-image: url("hoodie3.jpg");
 }
 .slide-3 {
-  background-image: url("hoodie3.jpg");
+  background-image: url("hoodie1.jpg");
 }
 
 h1 {
@@ -100,6 +100,7 @@ font-style: normal;
   html{
     font-size: 150%;
   }
+
 
 
 /* Stratos Italic
