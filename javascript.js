@@ -1,5 +1,5 @@
 var colour="white";
-var sparkles=65;
+var sparkles=100;
 var x=ox=400;
 var y=oy=300;
 var swide=800;
