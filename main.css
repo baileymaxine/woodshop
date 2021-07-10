@@ -18,11 +18,11 @@ font-style: normal;
 }
 
 .banner {
-  max-width: 100vw auto;
+  max-width: 100%;
   height: 400px;
   background-image: url(woodshop-banner-01.jpg);
   background-position: center center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 
