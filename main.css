@@ -9,3 +9,48 @@ body {
 img{
   max-width: 100%;
 }
+
+h1 {
+margin: 20px;
+font-family: stratos, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+
+/* Stratos Italic
+font-family: stratos, sans-serif;
+font-weight: 400;
+font-style: italic;
+
+
+Stratos Regular
+font-family: stratos, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Stratos Bold
+font-family: stratos, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+Stratos Bold Italic
+font-family: stratos, sans-serif;
+font-weight: 700;
+font-style: italic;
+
+
+Stratos Light
+font-family: stratos-lights, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+Stratos Light Italic
+
+font-family: stratos-lights, sans-serif;
+font-weight: 400;
+font-style: italic; */
