@@ -7,6 +7,8 @@ body {
   background-color: black;
 }
 
+
+
 img{
   max-width: 100%;
 }
@@ -37,6 +39,45 @@ img {
 
 body{
   background:#eeeee;
+}
+
+.flex-container{
+
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  align-content: space-around;
+  margin: 20px;
+}
+
+.item {
+  font-family: stratos, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fbf2df;
+  padding: 10px;
+  border: 3.3px solid #e94800;
+border-radius: 4.8%;
+  color: white;
+  width: 110px;
+  height:auto;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
 
 #slider{
