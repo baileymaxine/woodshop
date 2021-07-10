@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: black;
 }
 
 img{
@@ -20,8 +21,77 @@ html, body {
 img {
   max-width: 100%;
 }
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+@keyframes fade{
+  from{
+    opacity:0.4;
+  }
+  to{
+    opacity:1;
+  }
+}
 
-.slider-container{
+body{
+  background:#eeeee;
+}
+
+#slider{
+  margin:0 auto;
+  width:80%;
+  overflow:hidden;
+  border-style: double;
+  border-radius: 5%;
+  /* border-color: white; */
+  /* border-width: thick; */
+}
+
+.slides{
+  overflow:hidden;
+  animation-name:fade;
+  animation-duration:1s;
+  display:none;
+}
+
+img{
+  width:100%;
+}
+
+#dot{
+  margin:0 auto;
+  text-align:center;
+}
+.dot{
+  display:inline-block;
+  border-radius:50%;
+  background:#d3d3d3;
+  padding:8px;
+  margin:10px 5px;
+}
+
+.active{
+  background:black;
+}
+
+@media (max-width:567px){
+  #slider{
+    width:100%;
+
+  }
+}
+
+#heading{
+  display:block;
+  text-align:center;
+  font-size:2em;
+  margin:10px 0px;
+
+}
+
+/* .slider-container{
   height: 100%;
   width: 100%;
   position: relative;
@@ -77,10 +147,11 @@ img {
 }
 .slide-3 {
   background-image: url("hoodie1.jpg");
-}
+} */
 
 h1 {
 margin: 20px;
+color: white;
 font-family: stratos, sans-serif;
 font-weight: 700;
 font-style: normal;
