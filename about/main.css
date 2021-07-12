@@ -42,7 +42,7 @@ h1{
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 0;
-  margin-top: -80px;
+  margin-top: -90px;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -84,7 +84,7 @@ h1{
 
 .img2 {
   position: relative;
-  max-width: 200px;
+  max-width: 220px;
   text-align: center;
   transform: rotate(20deg);
   animation: scale .9s infinite linear alternate;
@@ -94,10 +94,10 @@ h1{
 
 @keyframes scale {
   from {
-    transform: scale(50%);
+    transform: scale(50%) rotate(15deg);
   }
   to {
-    transform: scale(70%);
+    transform: scale(70%) rotate(15deg);
   }
 }
 
