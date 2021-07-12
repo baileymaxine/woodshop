@@ -35,6 +35,29 @@ h1{
   background-size: contain;
 }
 
+.flex-container1 {
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.item1 {
+  margin-top: 50px;
+  width: 700px;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
 .flex-container {
 
   display: flex;
@@ -77,6 +100,15 @@ h1{
   }
 }
 
+.img1:hover {
+  color: #e94800;
+  box-shadow: 0 0 20px #e94800, 0 0 50px gold, 0 0 100px #e94800;
+}
+
+.img2:hover {
+  color: #e94800;
+  box-shadow: 0 0 20px #e94800, 0 0 50px gold, 0 0 100px #e94800;
+}
 
 h2 {
   color: black;
