@@ -30,9 +30,11 @@ h1{
   height: 400px;
   margin: 0 auto;
   top: 0 auto;
-  background-image: url(aboutbanner-02.png);
+  repeat: norepeat;
+  background-image: url(aboutbanner3.png);
   background-position: center center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .flex-container1 {
