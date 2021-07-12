@@ -211,7 +211,20 @@ font-style: normal;
   background-image: url(woodshop-banner-01-01.jpg);
   background-position: center center;
   background-size: contain;
+  background-repeat: no-repeat;
 }
+
+
+/* .banner {
+  width: 100%;
+  height: 400px;
+  top: 0 auto;
+  repeat: norepeat;
+  background-image: url(aboutbanner3.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
 
 @media screen and (max-width:800px) {
   html{
