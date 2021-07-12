@@ -15,7 +15,7 @@ body {
   border-radius: 10%;
   width: 100%;
   height: auto;
-  border: 5px solid #E94800;
+  border: 5px solid black;
 
 }
 
@@ -93,8 +93,16 @@ p{
   font-style: normal;
 }
 
+.aqua{
+  width: 20px;
+  height: auto;
+}
 
+.cap{
+  width: 20px;
+  height: auto;
 
+}
 
 
 /* Stratos Italic
