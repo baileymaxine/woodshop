@@ -105,10 +105,10 @@ h1{
   box-shadow: 0 0 20px #e94800, 0 0 50px gold, 0 0 100px #e94800;
 }
 
-.img2:hover {
+/* .img2:hover {
   color: #e94800;
   box-shadow: 0 0 20px #e94800, 0 0 50px gold, 0 0 100px #e94800;
-}
+} */
 
 h2 {
   color: black;
