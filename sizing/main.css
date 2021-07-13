@@ -132,6 +132,14 @@ margin-bottom: 40px;
   box-shadow: 0 0 20px #e94800, 0 0 50px gold, 0 0 100px #e94800;
 } */
 
+h1 {
+  font-family: stratos, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+
+}
 h2 {
   color: black;
   font-family: stratos, sans-serif;
@@ -164,11 +172,12 @@ p{
     width: 0px;
   }
   .img2 {
-    margin-top: -190px;
+    margin-top: -110px;
   }
 
   .banner {
     margin-top: -50px;
+
   }
 }
 

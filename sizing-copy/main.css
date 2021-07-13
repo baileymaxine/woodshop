@@ -4,9 +4,8 @@
 
 body {
   margin: 0;
-  background-image: linear-gradient(to bottom, #fbf2df, #fbf2df, gold, gold);
+  background-image: linear-gradient(to bottom, #fbf2df, #fbf2df, #e94800, #e94800);
 }
-
 
 
 .banner {
@@ -15,21 +14,19 @@ body {
   margin-bottom: -10px;
   top: 0 auto;
   repeat: norepeat;
-  background-image: url(faqbanner-06.png);
+  background-image: url(sizingheader.png);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 
 }
 
-.img1{
-  border-radius: 10%;
-  width: 100%;
-  height: auto;
-  border: 5px solid black;
 
+h1{
+  color: #fbf2df;
+  text-align: center;
+  font-size: 4em;
 }
-
 
 .button {
   font-family: stratos, sans-serif;
@@ -46,6 +43,7 @@ body {
 border-radius: 4.8%;
   color: white;
   width: 110px;
+  /* height:auto; */
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
@@ -60,6 +58,16 @@ border-radius: 4.8%;
   box-shadow: 0 0 20px #e94800, 0 0 50px gold, 0 0 100px #e94800;
   border-radius:0%; }
 
+.banner {
+  width: 100%;
+  height: 400px;
+  top: 0 auto;
+  repeat: norepeat;
+  background-image: url(faqbanner-06.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 
 .flex-container {

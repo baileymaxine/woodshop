@@ -50,7 +50,7 @@ body{
   justify-content:center;
   align-items: center;
   align-content: space-around;
-  margin-bottom: 50px;
+  margin: 40px;
 }
 
 .item {
@@ -130,7 +130,7 @@ img{
   .banner {
   }
   .flex-container {
-    margin-top: -100px;
+    margin-top: -50px;
   }
 }
 
@@ -210,13 +210,15 @@ font-style: normal;
 
 .banner {
   width: 100%;
-  height: 400px;
-  margin: 0 auto;
+  height: 300px;
+  margin-bottom: -10px;
   top: 0 auto;
-  background-image: url(woodshop-banner-01-01.jpg);
-background-position: center center;
+  repeat: norepeat;
+  background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  background-image: url(woodshop-banner-01-01.jpg);
+
 }
 
 
