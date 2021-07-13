@@ -125,7 +125,12 @@ img{
 @media (max-width:567px){
   #slider{
     width:100%;
+  }
 
+  .banner {
+  }
+  .flex-container {
+    margin-top: -100px;
   }
 }
 
@@ -209,7 +214,7 @@ font-style: normal;
   margin: 0 auto;
   top: 0 auto;
   background-image: url(woodshop-banner-01-01.jpg);
-  background-position: center center;
+background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
