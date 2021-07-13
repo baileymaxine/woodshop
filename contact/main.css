@@ -21,6 +21,7 @@ font-weight: 200;}
 img{
   max-width: 50%;
   align-items: center;
+  margin-top: -10px;
   /* animation: scale .9s infinite linear alternate; */
 
 }
@@ -78,6 +79,7 @@ border-radius: 4.8%;
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-bottom: -20px;
 }
 
 .center {
