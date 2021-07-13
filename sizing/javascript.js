@@ -1,5 +1,5 @@
 var colour="white";
-var sparkles=65;
+var sparkles=100;
 var x=ox=400;
 var y=oy=300;
 var swide=800;
@@ -151,3 +151,32 @@ function createDiv(height, width) {
   return (div);
 }
 // ]]>
+var index = 0;
+var slides = document.querySelectorAll(".slides");
+var dot = document.querySelectorAll(".dot");
+
+function changeSlide(){
+
+  if(index<0){
+    index = slides.length-1;
+  }
+
+  if(index>slides.length-1){
+    index = 0;
+  }
+
+  for(let i=0;i<slides.length;i++){
+    slides[i].style.display = "none";
+    dot[i].classList.remove("active");
+  }
+
+  slides[index].style.display= "block";
+  dot[index].classList.add("active");
+
+  index++;
+
+  setTimeout(changeSlide,2000);
+
+}
+
+changeSlide();
